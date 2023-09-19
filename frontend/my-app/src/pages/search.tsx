@@ -1,6 +1,6 @@
 import React from "react"
 import { useState } from "react";
-import Header from "./header";
+import Header from "./component/header";
 
 export function about() {
 return(

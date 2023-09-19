@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import Header from "./header";
+import Header from "./component/header";
+import Info from "./component/footer";
 export function User() {
   const[user,setuser]=useState([]);
   useEffect(() => {
@@ -40,7 +41,7 @@ export function User() {
         
 
        </div>
-       
+       <Info/>
         
       </>
 

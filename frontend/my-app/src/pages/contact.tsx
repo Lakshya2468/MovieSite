@@ -1,5 +1,6 @@
 import React from "react"
-import Header from "./header"
+import Header from "./component/header"
+import Info from "./component/footer"
 export default function contact(){
     return(
         <>
@@ -71,6 +72,7 @@ export default function contact(){
   </section>
 
 </div>
+<Info/>
 </>
     )
 }

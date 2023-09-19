@@ -1,7 +1,7 @@
 import React from "react";
 import {Header} from "./component/header";
 import Info from "./component/footer";
-import {Movie} from "./component/movie";
+import {Movie} from "./movie";
 
 
 export default function Home() {
@@ -13,10 +13,10 @@ export default function Home() {
    
       <ul className="flex  mx-[15%] drop-shadow-xl justify-around flex-center py-3 font-medium text-gray-900 bg-blue-400 ">
         <li>
-          <a href="http://localhost:3000/component/movie"  className="   text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">Movie</a>
+          <a href="http://localhost:3000/movie"  className="   text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">Movie</a>
         </li>
         <li>
-          <a href="http://localhost:3000/component/series" className="  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Series</a>
+          <a href="http://localhost:3000/series" className="  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Series</a>
         </li>
         <li>
           <a href="#popular" className="  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Popular</a>
@@ -172,7 +172,7 @@ export default function Home() {
 
 
 
-       <h1 className="text-2xl mt-10 text-center font-semibold" id="popular">About Us</h1>
+       <h1 className="text-2xl mt-24 text-center font-semibold" id="popular">About Us</h1>
   <hr className="mt-5" />
 
 

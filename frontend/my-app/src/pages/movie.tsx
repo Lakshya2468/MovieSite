@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import Header from "./header";
+import Header from "./component/header";
+import Info from "./component/footer";
 export function Movie() {
   const[movies,setmovies]=useState<any>([]);
   const [moviename, setmoviename] = useState("");
@@ -80,7 +81,9 @@ export function Movie() {
         </div>
       ))}
     </div>
+    <Info/>
   </>
+ 
 );
 }
   export default Movie;

@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import Header from "./header";
+import Header from "./component/header";
+import Info from "./component/footer";
 export function Movie() {
   const[series,setseries]=useState([]);
   useEffect(() => {
@@ -42,7 +43,7 @@ export function Movie() {
 
        </div>
        
-        
+        <Info/>
       </>
 
 

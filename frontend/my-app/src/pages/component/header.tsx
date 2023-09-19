@@ -28,7 +28,7 @@ export function Header() {
    <>
 <nav className="bg-white border-gray-100 dark:bg-gray-900 ">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-  <a href="https://flowbite.com/" className="flex items-center">
+  <a href="http://localhost:3000/" className="flex items-center">
       <img src="https://static.vecteezy.com/system/resources/thumbnails/008/386/321/small/mm-or-m-initial-letter-logo-design-vector.jpg" className="h-13 w-20 mr-3" alt="movies Logo" />
       <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">MovieMatrix</span>
   </a>
@@ -85,10 +85,10 @@ export function Header() {
           <a href="http://localhost:3000" className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
         </li>
         <li>
-          <a href="component/search" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+          <a href="search" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
         </li>
         <li>
-          <a href="component/contact" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact Us</a>
+          <a href="contact" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact Us</a>
         </li>
         <li>
       
@@ -99,9 +99,9 @@ export function Header() {
 <div className="hh"></div>
   </button>
   <div className="dropdown-content">
-    <a href="component/signup"> Sign Up</a>
-    <a href="component/watchlater">Watch Later</a>
-    <a href="component/user">User Details</a>
+    <a href="signup"> Sign Up</a>
+    <a href="watchlater">Watch Later</a>
+    <a href="user">User Details</a>
     <a href="" className="bg-red-500">Log Out</a>
   </div>
 </div>

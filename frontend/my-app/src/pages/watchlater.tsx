@@ -1,7 +1,8 @@
 import React from "react";
-import Header from "./header";
+import Header from "./component/header";
 import { useState } from "react";
 import { useEffect } from "react";
+import Info from "./component/footer";
 export default function Watchlater() {
     const[movies,setmovies]=useState([]);
     useEffect(() => {
@@ -65,7 +66,7 @@ return(
       ))}
     </div>
 
-
+<Info/>
 </>
 
 
